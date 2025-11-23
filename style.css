@@ -1,0 +1,55 @@
+body {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: 100vdh;
+}
+
+button {
+    background-color: rgb(2, 255, 2);
+    border: 2px solid rgb(0, 196, 0);
+    box-shadow: 1px 2px 11px 2px rgba(28, 180, 8, 0.82);
+    border-radius: 50px;
+    height: 65px;
+    width: 300px;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.40s ease;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button:active {
+    transform: scale(0.90);
+    transition: 0.5 ease-out;
+    background-color: rgb(10, 224, 10);
+    color: rgb(218, 218, 218);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+
+p {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    position: relative;
+    top: 290px;
+    transition: 0.5s ease;
+}
+
+p:hover {
+    transform: scale(1.5);
+}
